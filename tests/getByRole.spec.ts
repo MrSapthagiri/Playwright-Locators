@@ -48,7 +48,7 @@ test('Verify GetByRole elements', async ({ page }) => {
     // Verify checkbox selected
     await expect(acceptTerms).toBeChecked();
 
-    Verify navigation links
+    // Verify navigation links
     await expect(
         page.getByRole('link', { name: 'Home' })
     ).toBeVisible();
